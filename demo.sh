@@ -23,13 +23,13 @@ fi
 
 # apollo config db info
 apollo_config_db_url="jdbc:mysql://localhost:3306/ApolloConfigDB?characterEncoding=utf8&serverTimezone=Asia/Shanghai"
-apollo_config_db_username=${APOLLO_CONFIG_DB_USERNAME:-root}
-apollo_config_db_password=${APOLLO_CONFIG_DB_PASSWORD:-}
+apollo_config_db_username=root
+apollo_config_db_password=ly123456
 
 # apollo portal db info
 apollo_portal_db_url="jdbc:mysql://localhost:3306/ApolloPortalDB?characterEncoding=utf8&serverTimezone=Asia/Shanghai"
-apollo_portal_db_username=${APOLLO_PORTAL_DB_USERNAME:-root}
-apollo_portal_db_password=${APOLLO_PORTAL_DB_PASSWORD:-}
+apollo_portal_db_username=root
+apollo_portal_db_password=ly123456
 
 # =============== Please do not modify the following content =============== #
 
